@@ -1,1 +1,10 @@
-/auto_install.py
+# 虚拟环境与缓存
+.venv/
+__pycache__/
+
+# 运行产物
+downloads/
+screenshots/
+
+# 工作区审计记录
+update-qh-*.md
