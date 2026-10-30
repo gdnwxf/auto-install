@@ -1,0 +1,11 @@
+[project]
+name = "auto-install"
+version = "0.1.0"
+description = "雷电模拟器 ADB 自动化安装脚本（adb 直装版 auto_install.py / 浏览器模拟人工安装版 browser_install.py），运行于 WSL 调用 Windows adb.exe"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+]
+
+[tool.uv]
+package = false
